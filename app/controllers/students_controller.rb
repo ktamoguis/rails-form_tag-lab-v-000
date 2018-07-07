@@ -9,8 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def new
-    binding.pry
-    @student = Student.create(params)
+    #binding.pry
   end
 
   def create
