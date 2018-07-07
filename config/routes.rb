@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   #only: :index
   #get '/students/:id', to: 'students#show', as: 'student'
   #get '/students/new', to: 'students#new', as: 'new_student'
-  #post '/students
+  #post '/students, to: 'students#create'
 end
